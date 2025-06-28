@@ -1,0 +1,36 @@
+# Base de données
+*.sqlite3
+
+# Fichiers statiques collectés
+/staticfiles/
+/static/
+/media/
+
+# Cache Django
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs Django
+*.log
+
+
+# Cache uv
+.uv/
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+*.env
+
+# Configuration locale
+local_settings.py
+
+# PyCharm
+.idea/
+
+# Ruff
+.ruff_cache/
+/games/management/commands/test.http
